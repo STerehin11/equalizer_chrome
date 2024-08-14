@@ -1,12 +1,21 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Equlizer</title>
-        <link rel="stylesheet" type="text/css" href="popup.css"/>
-    </head>
-    <body>
-        <h1>Equlizer</h1>
-        <button id="startButton">Lets start</button>
-        <script src="index.js"></script>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <audio controls loop class="audio" id="audio">
+    <source src="assets/file.mp3">
+    <source src="assets/file.ogg">
+  </audio>
+
+  <div class="eq-wrap"></div>
+  <input type="file" id="file">
+  
+  <script src="utils.js"></script>
+  <script src='eqiluzer.js'></script>
+  <script src="index.js"></script>
+  
+</body>
 </html>
