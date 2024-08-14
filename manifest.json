@@ -1,0 +1,10 @@
+{
+    "name": "Equalizer",
+    "description": "Equalizer version 1",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {},
+    "action": {"default_popup":"index.html"},
+    "permissions": [],
+    "background":{}
+}
